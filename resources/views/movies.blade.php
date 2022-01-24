@@ -18,7 +18,6 @@
     <tbody>
       @forelse ($movies as $movie)
       <tr>
-        <th scope="row">1</th>
         <td>{{$movie->id}}</td>
         <td>{{$movie->title}}</td>
         <td>{{$movie->original_title}}</td>
