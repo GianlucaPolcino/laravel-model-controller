@@ -10,7 +10,11 @@ class PageController extends Controller
         return view('home');
     }
 
-    public function movies(){
-        return view('movies');
+    public function contacts(){
+        return view('contacts');
+    }
+
+    public function about(){
+        return view('about');
     }
 }

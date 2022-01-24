@@ -15,4 +15,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'PageController@index')->name('home');
 
-Route::get('movies', 'PageController@movies')->name('movies');
+Route::get('movies', 'PageMovies@index')->name('movies');
+
+Route::get('contatti', 'PageController@contacts')->name('contacts');
+
+Route::get('informazioni', 'PageController@about')->name('about');
+
+
